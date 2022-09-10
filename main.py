@@ -26,7 +26,7 @@ lines = [line.rstrip() for line in open('line.txt')]
 for line in lines:
     if line:
         axisdata = line.split(' ')
-        if float(axisdata[2] )< 0:
+        if float(axisdata[2]) < 0:
             xn.append(float(axisdata[0]))
             yn.append(float(axisdata[1]))
             zn.append(float(axisdata[2]))
