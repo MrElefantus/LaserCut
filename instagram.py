@@ -14,7 +14,7 @@ def insta_auth():
         cl.set_timezone_offset(3 * 3600)  # Moscow UTC+3
 
         cl.login('putiloboy', 'ckjyzhf')
-        #cl.login('mrelefantus', 'Ckjyzhf77')
+        #cl.login('mrelefantus', 'Ckjyzhf777')
 
         return cl
     except Exception as ex:
